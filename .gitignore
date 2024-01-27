@@ -1,0 +1,4 @@
+openapi.json
+update-sdk.sh
+dist
+node_modules

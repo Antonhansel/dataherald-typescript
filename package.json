@@ -1,0 +1,32 @@
+{
+  "name": "dataherald-typescript-sdk",
+  "version": "1.0.0",
+  "description": "Dataherald Typescript SDK, generated from the OpenAPI specification",
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonhansel/dataherald-typescript.git"
+  },
+  "prepublish": "tsc",
+  "keywords": [
+    "dataherald",
+    "typescript",
+    "sdk",
+    "llm",
+    "nltosql",
+    "nl2sql"
+  ],
+  "author": "https://github.com/antonhansel/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antonhansel/dataherald-typescript/issues"
+  },
+  "homepage": "https://github.com/Antonhansel/dataherald-typescript#readme",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
